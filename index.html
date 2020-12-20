@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-image: url("https://products.ls.graphics/mesh-gradients/images/01.-Royal-Heath.jpg");
+        background-size: fill;
+        background-repeat: no-repeat;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .logo-image {
+        width: 100px;
+        height: auto;
+      }
+
+      .h1-title {
+        align-self: center;
+        color: #323232;
+        font-size: 20px;
+      }
+
+      .home-container .title-container {
+        width: 300px;
+        text-align: center;
+      }
+
+      .home-container .formContainer {
+        width: 300px;
+        margin: 32px 0;
+        background-color: white;
+        padding: 32px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px 2px rgba(50, 50, 50, 0.2);
+      }
+
+      .inputContainer {
+        display: grid;
+        grid-row-gap: 16px;
+      }
+
+      label {
+        font-size: small;
+      }
+
+      input {
+        height: 28px;
+        border: 1px solid #aaaaaa;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        border-radius: 4px;
+        color: white;
+        background-color: #0086d4;
+        border: none;
+      }
+
+      .signInLink {
+        font-size: small;
+        justify-self: center;
+        text-decoration: underline;
+      }
+    </style>
+    <title>Log In Practice</title>
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="title-container">
+        <img
+          src="https://lh3.googleusercontent.com/proxy/mkZoBGKwh_Se1hhkKVQ5l-ouuSTIUDsAYo2HaZS1OwYWYQHOTF17aezoMfW_cDnbkERgbIBDwCFUpgiEmBu3ZSZiNQ"
+          alt="Company Logo"
+          class="logo-image"
+        />
+      </div>
+      <div class="formContainer">
+        <h1 class="h1-title">Sign In</h1>
+        <form class="inputContainer">
+          <label for="email">Email</label>
+          <input id="email" type="text" />
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+          <input type="submit" />
+          <a href="/" class="signInLink">Create New Account</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
